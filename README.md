@@ -10,9 +10,14 @@
     <a href="https://www.jsdelivr.com/package/npm/@srexi/purecounterjs"><img src="https://data.jsdelivr.com/v1/package/npm/@srexi/purecounterjs/badge" alt="jsdeliver traffic stats"></a>  
 </p>
 
-### NPM (Network Package Manager Incorporated). :neckbeard:
+```
+new PureCounter(); // init element class
 
 ```
+
+### NPM (Network Package Manager Incorporated). :neckbeard:
+
+```bash
 npm i --save @srexi/purecounter.js // imports on users host
 ```
 
