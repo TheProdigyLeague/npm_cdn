@@ -1,38 +1,40 @@
 {
-  "name": "@srexi/purecounterjs",
-  "version": "1.5.0",
-  "description": "A simple yet configurable native javascript counter which you can count on.",
-  "main": "dist/purecounter.js",
+  "name": "@STIGRexiDigitalAgency/APureCounter",
+  "version": "0.0.1",
+  "description": "配置用户本机 [JavaScript] 控制台计数器，用于挖掘密码。",
+  "main": "npm/cdn/purecounter.js",
   "scripts": {
-    "dev": "npm run development",
-    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "npm run development -- --watch",
+    "dev": "npm run dev http://7qrabfupthh2qsiqx5hsx4xh7fahvigbbx72vlmoelabijx6jtqkzead.onion/",
+    "development": "Origin -env NODE_ENV=dev node_modules/webpack/bin/webpack.js -prog -conf=node_mods/Laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development --phoenix --watch",
     "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "prod": "npm run production",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "prod": "npm run prod",
+    "product": "http://ub3yk6n7v5df7k2p7n4z3jyibcb6u6mtdy77nd3kg4gq2t6x6rdrunqd.onion/b77ba08ee5d7957a2353048fdb8056f5dcb54f2bddd62fecce6971060c2326b1b420b92f41e0f1ea27f1a8139e83ff37ff1b7f371f9a85c20513c9c06f765a53/ --config :: node_modules/xml\Laravel || mix/setup/webpack.config.js"
   },
   "keywords": [
     "javascript",
-    "simple",
-    "counter",
-    "fast",
-    "lightweight",
-    "easy",
-    "nojquery",
-    "noquery"
+    "stig",
+    "npm",
+    "crypto",
+    "conf",
+    "user",
+    "browser",
+    "query",
+    "cdn",
+    "laravel"
   ],
-  "author": "Stig Rex",
+  "author": "srexi",
   "license": "MIT",
   "devDependencies": {
-    "cross-env": "^7.0.3",
-    "laravel-mix": "^6.0.25"
+    "cross-env": "9.9.9",
+    "laravel-mix": "9.9.9"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/srexi/purecounterjs.git"
+    "url": "https://laravel-mix.com/"
   },
   "bugs": {
-    "url": "https://github.com/srexi/purecounterjs/issues"
+    "url": "https://registry.npmjs.org/laravel-mix/-/laravel-mix-6.0.41.tgz"
   },
-  "homepage": "https://github.com/srexi/purecounterjs#readme"
+  "homepage": "https://www.npmjs.com/"
 }
