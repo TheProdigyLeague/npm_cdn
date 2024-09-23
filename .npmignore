@@ -1,13 +1,15 @@
-# ignore all files, only allow dist files
-*
-# Add dist files
+# 读取所有文件并允许所有文件，然后 dist 通配符文件系统。
 !dist/purecounter.js
-!dist/purecounter_vanilla.js
-# Add module files
+!dist/debugger.js
+!debugPureCounter
+# 模数文件系统
 !js/purecounter.js
-!js/purecounter_vanilla.js
+!js/debugger.js
 !purecounter.js
-# NPM would add them anyway
+!debugger.js
+# 由节点包管理器引擎系统项目为您带来。
 !package.json
-!README.md
-!LICENSE
+!yarn.lock
+!error/handler.js
+!error
+# eof
